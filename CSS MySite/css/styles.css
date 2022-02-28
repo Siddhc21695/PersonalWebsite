@@ -1,0 +1,101 @@
+body{
+    margin-top: 0px;
+    text-align: center;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+}
+h1{
+    font-family: 'Merienda', cursive;
+    
+    font-size: 5.625rem;
+    margin: 3.125rem auto 0.625rem;
+    color: #1A374D;
+    line-height: 2;    
+}
+h2{
+    font-family: 'Antic Slab', serif;
+    font: size 2.5rem;
+    margin: 0;
+    color: #1A374D;
+    font-weight: no;
+}
+h3{
+    font-family: 'Antic Slab', serif;
+    color: #1A374D;
+}
+.top-container{
+    background-color: #B1D0E0;
+    padding-top: 100px;
+    position: relative;       
+}
+.top-cloud{
+    position: absolute;  
+    top: 50px;
+    right: 400px;
+    
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+    
+}
+.mountain{
+    position: relative;
+
+}
+.middle-container{
+    margin: 2rem;
+   
+}
+.bottom-container{
+    background-color: #B1D0E0;
+    padding: 2rem;
+}
+.profile-pic{
+    height: 200px;
+    width:200px;
+    border-radius: 100px;
+    border-color: #1A374D;
+    margin: 2rem;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;              
+    border-color:#1A374D;
+    border-width: 10px;
+    margin: 5rem auto;
+    border-color: #B1D0E0;
+ }
+ a{
+     color: #6998AB;
+ }
+ .skills{
+     position: relative;
+ }
+ .skill-row{
+     width: 50%;
+     position: relative;
+     margin: 6.25rem auto 6.25rem;
+     text-align: left;     
+ }
+ .skill-pic{
+     width: 25%;
+     height: 25%;     
+     margin: 1.875rem;
+ }
+ .skill-pic1{
+    float: left;
+ }
+ .skill-pic2{
+    float: right;
+ }
+ .skill-content{
+     text-align: left;
+     line-height: 2;
+ }
+ 
