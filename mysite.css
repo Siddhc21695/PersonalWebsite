@@ -115,3 +115,13 @@ hr{
      opacity: .75;
      background-color: #FFD369;
  }
+
+ @media screen {
+     .section-heading{
+         text-align: left;
+     }
+     .section-content{
+         text-align: justify;
+     }
+     
+ }
