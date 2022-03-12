@@ -8,6 +8,8 @@
     padding: 1rem 1rem;
     height:100%;
 }
+
+/* Navigation Area */
 .navi-area{
     padding-left: 0%;
     padding-right: 0%;
@@ -25,12 +27,18 @@
 }
 .nav-link{
     font-family: 'Montserrat', sans-serif;
-    color:#FFD369;   
+    color:#FFD369;
+    font-weight:bold;
+    font-size: 1.25rem;
 }
+
+/* Body Area */
 .full-content-area{ 
     max-width: inherit;
     padding: 0%;
 }
+
+/* Top Head Area */
 .header-area{
     background-color: #222831;
     color: #EEEEEE;
@@ -56,8 +64,8 @@
 h2{
     font-family: 'Ubuntu', sans-serif;  
 }
-.pic-area{
-    padding: 0.5rem;
+.pic-area{    
+    padding: 1rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -66,7 +74,10 @@ h2{
     max-height: 100%;
     display: block;
     border-radius: 25%;
+    
 }
+
+/* Main Content Area */
 
 .content-area{
     position: relative;
@@ -81,6 +92,8 @@ h2{
     border-color: #FFD369;
     border-width: 0.5rem;
 }
+
+/* Carousel Elements */
 #content-carousel{
     width:100%;
     align-items: center;
@@ -92,6 +105,11 @@ h2{
 .carousel-item{
     width: 100%;
 }
+
+
+
+/* Other Stuff */
+
 .ov-content{
     text-align: justify;
     font-family: 'Montserrat', sans-serif;    
@@ -118,7 +136,11 @@ hr{
 
 
  @media only screen and (max-width: 600px) {
-     .section-heading{
+    .introhead{
+        top: 0%;
+    } 
+    
+    .section-heading{
          text-align: left;
      }
      .section-content{
